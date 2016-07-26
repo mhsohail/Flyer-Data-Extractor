@@ -72,7 +72,7 @@ Partial Class FrmFlyerDataExtrarctor
         Me.Controls.Add(Me.TxtWebsiteUrl)
         Me.Controls.Add(Me.BtnExtractData)
         Me.Name = "FrmFlyerDataExtrarctor"
-        Me.Text = "Flyer Data Extrarctor"
+        Me.Text = "Flyer Data Extractor"
         Me.ResumeLayout(False)
         Me.PerformLayout()
 

@@ -27,7 +27,7 @@ Public Class FrmFlyerDataExtrarctor
     Private Sub PutResultsInExcel(items As List(Of Item))
         'create excel file to save results in
         'save results to excel file
-        Dim FilePath = "Products.xlsx"
+        Dim FilePath = Environment.GetFolderPath(Environment.SpecialFolder.Desktop) + "\Products.xlsx"
         If Not (System.IO.File.Exists(FilePath)) Then
             CreateSpreadsheetWorkbook(FilePath)
         End If
